@@ -1,2 +1,2 @@
 # JavaScript-Projects
-This Is a Repo of JavaScript Project!
+This Is a Repo of JavaScript Projects!
