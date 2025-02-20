@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Gilory;
+    src: url('./Font/Gilroy-Medium.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilory;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+
+.musicPlayer {
+    background: #666c6a;
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .circle {
+    font-size: 24px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    color: #456064;
+    box-shadow: 0 5px 10px rgba(44, 75, 71, 0.3);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.songImg {
+    height: 250px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 10px rgba(44, 75, 71, 0.3);
+}
+
+.musicPlayer h1 {
+    margin-top: 20px;
+}
+
+#progress {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #666c6a;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid rgb(62, 58, 58);
+    box-shadow: 0 5px 10px rgba(44, 75, 71, 0.3);
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls div {
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    background: black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 8px solid rgb(62, 58, 58);
+    box-shadow: 0 5px 10px rgba(44, 75, 71, 0.3);
+    cursor: pointer;
+    font-size: 25px;
+    padding-left: 3px;
+}
+
+.controls div:nth-child(2) {
+    transform: scale(1.5);
+}

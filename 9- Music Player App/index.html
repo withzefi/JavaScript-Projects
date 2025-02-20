@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="musicPlayer">
+            <nav>
+                <div class="circle">
+                    <i class='bx bx-left-arrow-alt'></i>
+                </div>
+                <div class="circle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        <img src="./Media/thumbnail.jpg" class="songImg">
+        <h1>303 FREESTYLE</h1>
+        <p>Talha Yunus (Prod. By Umair)</p>
+
+        <audio controls id="song">
+            <!-- <source src="./Media/303 FREESTYLE - Talhah Yunus (Prod. by UMAIR).mp3" type="audio/mpeg"> -->
+        </audio>
+        <input type="range" value="0" id="progress">
+        
+        <div class="controls">
+            <div><i class='bx bx-chevrons-left'></i></div>
+            <div><i class='bx bx-play' id="ctrlIcon"></i></div>
+            <div><i class='bx bx-chevrons-right'></i></i></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
