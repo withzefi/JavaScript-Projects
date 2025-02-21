@@ -33,6 +33,7 @@ body {
     width: 400px;
     padding: 25px 35px;
     text-align: center;
+    border-radius: 40px;
 }
 
 nav {
@@ -106,7 +107,7 @@ nav .circle {
     box-shadow: 0 5px 10px rgba(44, 75, 71, 0.3);
     cursor: pointer;
     font-size: 25px;
-    padding-left: 3px;
+    /* padding-left: 3px; */
 }
 
 .controls div:nth-child(2) {
